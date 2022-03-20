@@ -1,9 +1,10 @@
 
 <?php include('partials/menu.php'); ?>
 
+        <!-- Main Content Section Starts -->
         <div class="main-content">
             <div class="wrapper">
-                <h1>Painel de Controle</h1>
+                <h1>Dashboard</h1>
                 <br><br>
                 <?php 
                     if(isset($_SESSION['login']))
@@ -37,7 +38,7 @@
 
                     <h1><?php echo $count2; ?></h1>
                     <br />
-                    Lanches
+                    Foods
                 </div>
 
                 <div class="clearfix"></div>
