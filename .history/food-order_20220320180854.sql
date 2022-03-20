@@ -65,7 +65,7 @@ CREATE TABLE `tbl_category` (
 INSERT INTO `tbl_category` (`id`, `title`, `image_name`, `featured`, `active`) VALUES
 (4, 'Pizza', 'Food_Category_790.jpg', 'Yes', 'Yes'),
 (5, 'Burger', 'Food_Category_344.jpg', 'Yes', 'Yes'),
-(6, 'MoMo', 'Food_Category_77.jpg', 'Yes', 'Yes');
+(6, 'MoMo', 'Food_Category_77.jpg', 'Yes', 'Yes'),;
 
 -- --------------------------------------------------------
 

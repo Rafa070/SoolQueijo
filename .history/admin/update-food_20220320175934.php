@@ -141,8 +141,8 @@
             <tr>
                 <td>Ativo: </td>
                 <td>
-                    <input <?php if($active=="Yes") {echo "checked";} ?> type="radio" name="active" value="Yes"> Yes
-                    <input <?php if($active=="No") {echo "checked";} ?> type="radio" name="active" value="No"> No 
+                    <input <?php if($active=="Yes") {echo "checked";} ?> type="radio" name="active" value="Sim"> Sim
+                    <input <?php if($active=="No") {echo "checked";} ?> type="radio" name="active" value="Não"> Não 
                 </td>
             </tr>
 
