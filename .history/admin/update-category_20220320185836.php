@@ -99,7 +99,7 @@
                     <td>
                         <input <?php if($active=="Yes"){echo "checked";} ?> type="radio" name="active" value="Yes"> Sim 
 
-                        <input <?php if($active=="No"){echo "checked";} ?> type="radio" name="active" value="No"> Não 
+                        <input <?php if($active=="No"){echo "checked";} ?> type="radio" name="active" value="Não"> Não 
                     </td>
                 </tr>
 

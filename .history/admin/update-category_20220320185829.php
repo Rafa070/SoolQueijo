@@ -90,16 +90,16 @@
                     <td>
                         <input <?php if($featured=="Yes"){echo "checked";} ?> type="radio" name="featured" value="Yes"> Sim 
 
-                        <input <?php if($featured=="No"){echo "checked";} ?> type="radio" name="featured" value="No"> Não 
+                        <input <?php if($featured=="No"){echo "checked";} ?> type="radio" name="featured" value="Não"> Não 
                     </td>
                 </tr>
 
                 <tr>
                     <td>Ativo: </td>
                     <td>
-                        <input <?php if($active=="Yes"){echo "checked";} ?> type="radio" name="active" value="Yes"> Sim 
+                        <input <?php if($active=="Yes"){echo "checked";} ?> type="radio" name="active" value="Sim"> Sim 
 
-                        <input <?php if($active=="No"){echo "checked";} ?> type="radio" name="active" value="No"> Não 
+                        <input <?php if($active=="No"){echo "checked";} ?> type="radio" name="active" value="Não"> Não 
                     </td>
                 </tr>
 

@@ -88,18 +88,18 @@
                 <tr>
                     <td>Destaque: </td>
                     <td>
-                        <input <?php if($featured=="Yes"){echo "checked";} ?> type="radio" name="featured" value="Yes"> Sim 
+                        <input <?php if($featured=="Yes"){echo "checked";} ?> type="radio" name="featured" value="Sim"> Sim 
 
-                        <input <?php if($featured=="No"){echo "checked";} ?> type="radio" name="featured" value="No"> Não 
+                        <input <?php if($featured=="No"){echo "checked";} ?> type="radio" name="featured" value="Não"> Não 
                     </td>
                 </tr>
 
                 <tr>
                     <td>Ativo: </td>
                     <td>
-                        <input <?php if($active=="Yes"){echo "checked";} ?> type="radio" name="active" value="Yes"> Sim 
+                        <input <?php if($active=="Yes"){echo "checked";} ?> type="radio" name="active" value="Sim"> Sim 
 
-                        <input <?php if($active=="No"){echo "checked";} ?> type="radio" name="active" value="No"> Não 
+                        <input <?php if($active=="No"){echo "checked";} ?> type="radio" name="active" value="Não"> Não 
                     </td>
                 </tr>
 
@@ -107,7 +107,7 @@
                     <td>
                         <input type="hidden" name="current_image" value="<?php echo $current_image; ?>">
                         <input type="hidden" name="id" value="<?php echo $id; ?>">
-                        <input type="submit" name="submit" value="Atualizar" class="btn-secondary">
+                        <input type="submit" name="submit" value="A" class="btn-secondary">
                     </td>
                 </tr>
 
