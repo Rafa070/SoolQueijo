@@ -38,7 +38,7 @@
             <input type="submit" name="submit" value="Login" class="btn-primary">
             <br><br>
             </form>
-            <li><a href="http://localhost/food-order/">Tela Inicial</a></li>
+           
         </div>
 
     </body>
