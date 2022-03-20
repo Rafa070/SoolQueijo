@@ -78,8 +78,9 @@
             $_SESSION['login'] = "<div class='error text-center'>Nome de usuário ou senha estão incorretos.</div>";
             
             header('location:'.SITEURL.'admin/login.php');
-            
         }
+
+
     }
 
 ?>
