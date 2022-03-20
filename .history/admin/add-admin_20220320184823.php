@@ -54,6 +54,7 @@
 
 
 
+
 <?php 
 
     if(isset($_POST['submit']))
@@ -68,7 +69,7 @@
             password='$password'
         ";
  
-          $res = mysqli_query($conn, $sql) or die(mysqli_error());
+        $res = mysqli_query($conn, $sql) or die(mysqli_error());
 
     
         if($res==TRUE)
