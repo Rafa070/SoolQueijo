@@ -14,7 +14,9 @@
 
             if($remove==false)
             {
+
                 $_SESSION['remove'] = "<div class='error'>Falha</div>";
+                //REdirect to Manage Category page
                 header('location:'.SITEURL.'admin/manage-category.php');
               
                 die();
@@ -40,9 +42,12 @@
             header('location:'.SITEURL.'admin/manage-category.php');
         }
 
+ 
+
     }
     else
     {
+        //redirect to Manage Category Page
         header('location:'.SITEURL.'admin/manage-category.php');
     }
 ?>

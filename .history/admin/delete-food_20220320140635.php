@@ -20,7 +20,7 @@
             if($remove==false)
             {
             
-                $_SESSION['upload'] = "<div class='error'>Falha no upload</div>";
+                $_SESSION['upload'] = "<div class='error'>Failed to Remove Image File.</div>";
                 
                 header('location:'.SITEURL.'admin/manage-food.php');
                
@@ -37,18 +37,18 @@
         if($res==true)
         {
     
-            $_SESSION['delete'] = "<div class='success'>Lanche deletado com Sucesso</div>";
+            $_SESSION['delete'] = "<div class='success'>Food Deleted Successfully.</div>";
             header('location:'.SITEURL.'admin/manage-food.php');
         }
         else
         {  
-            $_SESSION['delete'] = "<div class='error'>Falha</div>";
+            $_SESSION['delete'] = "<div class='error'>Failed to Delete Food.</div>";
             header('location:'.SITEURL.'admin/manage-food.php');
         }
     }
     else
     {  
-        $_SESSION['unauthorize'] = "<div class='error'>Necessario autorização</div>";
+        $_SESSION['unauthorize'] = "<div class='error'>Unauthorized Access.</div>";
         header('location:'.SITEURL.'admin/manage-food.php');
     }
 
