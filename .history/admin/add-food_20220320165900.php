@@ -15,7 +15,7 @@
         ?>
 
         <form action="" method="POST" enctype="multipart/form-data">
-
+        
             <table class="tbl-30">
 
                 <tr>
@@ -69,16 +69,16 @@
 
                                         ?>
 
-                            <option value="<?php echo $id; ?>"><?php echo $title; ?></option>
+                                        <option value="<?php echo $id; ?>"><?php echo $title; ?></option>
 
-                            <?php
+                                        <?php
                                     }
                                 }
                                 else
                                 {
                                     ?>
-                            <option value="0">No Category Found</option>
-                            <?php
+                                    <option value="0">No Category Found</option>
+                                    <?php
                                 }
                             ?>
 
@@ -89,7 +89,7 @@
                 <tr>
                     <td>Em estoque: </td>
                     <td>
-                        <input type="radio" name="featured" value="Sim"> Sim
+                        <input type="radio" name="featured" value="Sim"> Sim 
                         <input type="radio" name="featured" value="Não"> Não
                     </td>
                 </tr>
@@ -97,7 +97,7 @@
                 <tr>
                     <td>Activar: </td>
                     <td>
-                        <input type="radio" name="active" value="Sim"> Sim
+                        <input type="radio" name="active" value="Sim"> Sim 
                         <input type="radio" name="active" value="Não"> Não
                     </td>
                 </tr>
@@ -112,7 +112,7 @@
 
         </form>
 
-
+        
         <?php 
 
             if(isset($_POST['submit']))
@@ -217,3 +217,4 @@
 
     </div>
 </div>
+

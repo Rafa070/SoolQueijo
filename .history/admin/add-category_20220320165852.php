@@ -45,15 +45,15 @@
                 <tr>
                     <td>Em Estoque: </td>
                     <td>
-                        <input type="radio" name="featured" value="Yes"> Sim
-                        <input type="radio" name="featured" value="No"> Não
+                        <input type="radio" name="featured" value="Yes"> Sim 
+                        <input type="radio" name="featured" value="No"> Não 
                     </td>
                 </tr>
 
                 <tr>
                     <td>Ativar: </td>
                     <td>
-                        <input type="radio" name="active" value="Yes"> Sim
+                        <input type="radio" name="active" value="Yes"> Sim 
                         <input type="radio" name="active" value="No"> Não
                     </td>
                 </tr>
@@ -133,3 +133,4 @@
         ?>
     </div>
 </div>
+
