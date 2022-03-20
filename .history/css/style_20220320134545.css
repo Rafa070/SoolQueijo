@@ -1,3 +1,4 @@
+
 *{
     margin: 0 0;
     padding: 0 0;
@@ -106,6 +107,8 @@ fieldset{
     font-weight: bold;
 }
 
+
+
 .food-search{
     background-image: url(../images/bg.jpg);
     background-size: cover;
@@ -122,6 +125,8 @@ fieldset{
     border-radius: 5px;
 }
 
+
+
 .categories{
     padding: 4% 0;
 }
@@ -131,6 +136,7 @@ fieldset{
     float: left;
     margin: 2%;
 }
+
 
 .food-menu{
     background-color: #ececec;
@@ -165,6 +171,8 @@ fieldset{
     color: #747d8c;
 }
 
+
+
 .social ul{
     list-style-type: none;
 }
@@ -172,6 +180,7 @@ fieldset{
     display: inline;
     padding: 1%;
 }
+
 
 .order{
     width: 50%;
@@ -189,6 +198,7 @@ fieldset{
     margin-bottom: 1%; 
     font-weight: bold;
 }
+
 
 
 @media only screen and (max-width:768px){

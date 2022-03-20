@@ -106,6 +106,7 @@ fieldset{
     font-weight: bold;
 }
 
+
 .food-search{
     background-image: url(../images/bg.jpg);
     background-size: cover;
@@ -131,6 +132,7 @@ fieldset{
     float: left;
     margin: 2%;
 }
+
 
 .food-menu{
     background-color: #ececec;
@@ -165,6 +167,8 @@ fieldset{
     color: #747d8c;
 }
 
+
+
 .social ul{
     list-style-type: none;
 }
@@ -172,6 +176,7 @@ fieldset{
     display: inline;
     padding: 1%;
 }
+
 
 .order{
     width: 50%;
@@ -189,6 +194,7 @@ fieldset{
     margin-bottom: 1%; 
     font-weight: bold;
 }
+
 
 
 @media only screen and (max-width:768px){

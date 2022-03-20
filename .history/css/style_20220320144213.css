@@ -165,6 +165,8 @@ fieldset{
     color: #747d8c;
 }
 
+
+
 .social ul{
     list-style-type: none;
 }
@@ -172,6 +174,7 @@ fieldset{
     display: inline;
     padding: 1%;
 }
+
 
 .order{
     width: 50%;
@@ -189,6 +192,7 @@ fieldset{
     margin-bottom: 1%; 
     font-weight: bold;
 }
+
 
 
 @media only screen and (max-width:768px){

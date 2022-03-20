@@ -77,6 +77,7 @@ table tr td{
 }
 
 
+/* CSS for Menu */
 .menu{
     border-bottom: 1px solid grey;
 }
@@ -96,6 +97,7 @@ table tr td{
     color: #ff4757;
 }
 
+/* CSS for main-content */
 .main-content{
     background-color: #f1f2f6;
     padding: 3% 0;
@@ -109,11 +111,14 @@ table tr td{
     float: left;
 }
 
+
+/* CSS for Footer */
 .footer{
     background-color: #ff4757;
     color: white;
 }
 
+/* CSS for Login */
 .login{
     border: 1px solid grey;
     width: 20%;

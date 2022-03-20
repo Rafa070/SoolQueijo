@@ -1,7 +1,7 @@
 <?php include('partials/menu.php'); ?>
 
 
-      
+        <!-- Main Content Section Starts -->
         <div class="main-content">
             <div class="wrapper">
                 <h1>Manage Admin</h1>
@@ -11,8 +11,8 @@
                 <?php 
                     if(isset($_SESSION['add']))
                     {
-                        echo $_SESSION['add']; 
-                        unset($_SESSION['add']); 
+                        echo $_SESSION['add']; //Displaying Session Message
+                        unset($_SESSION['add']); //REmoving Session Message
                     }
 
                     if(isset($_SESSION['delete']))

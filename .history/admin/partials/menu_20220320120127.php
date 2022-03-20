@@ -8,13 +8,13 @@
 
 <html>
     <head>
-        <title>Painel de Controle Administrativo</title>
+        <title>Food Order Website - Home Page</title>
 
         <link rel="stylesheet" href="../css/admin.css">
     </head>
     
     <body>
-     
+        <!-- Menu Section Starts -->
         <div class="menu text-center">
             <div class="wrapper">
                 <ul>
@@ -26,4 +26,4 @@
                 </ul>
             </div>
         </div>
-      
+        <!-- Menu Section Ends -->

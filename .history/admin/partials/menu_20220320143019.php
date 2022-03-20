@@ -14,7 +14,7 @@
     </head>
     
     <body>
-     
+        <!-- Menu Section Starts -->
         <div class="menu text-center">
             <div class="wrapper">
                 <ul>
@@ -26,4 +26,4 @@
                 </ul>
             </div>
         </div>
-      
+        <!-- Menu Section Ends -->

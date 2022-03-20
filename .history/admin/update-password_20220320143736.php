@@ -16,21 +16,21 @@
         
             <table class="tbl-30">
                 <tr>
-                    <td>Senha atual: </td>
+                    <td>Current Password: </td>
                     <td>
                         <input type="password" name="current_password" placeholder="Senha atual">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Nova Senha:</td>
+                    <td>New Password:</td>
                     <td>
                         <input type="password" name="new_password" placeholder="Nova Senha">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Confirmar Senha: </td>
+                    <td>Confirm Password: </td>
                     <td>
                         <input type="password" name="confirm_password" placeholder="Confirmar senha">
                     </td>
@@ -39,7 +39,7 @@
                 <tr>
                     <td colspan="2">
                         <input type="hidden" name="id" value="<?php echo $id; ?>">
-                        <input type="submit" name="submit" value="Salvar" class="btn-secondary">
+                        <input type="submit" name="submit" value="Change Password" class="btn-secondary">
                     </td>
                 </tr>
 

@@ -16,21 +16,21 @@
         
             <table class="tbl-30">
                 <tr>
-                    <td>Senha atual: </td>
+                    <td>Current Password: </td>
                     <td>
                         <input type="password" name="current_password" placeholder="Senha atual">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Nova Senha:</td>
+                    <td>New Password:</td>
                     <td>
                         <input type="password" name="new_password" placeholder="Nova Senha">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Confirmar Senha: </td>
+                    <td>Confirm Password: </td>
                     <td>
                         <input type="password" name="confirm_password" placeholder="Confirmar senha">
                     </td>
@@ -39,7 +39,7 @@
                 <tr>
                     <td colspan="2">
                         <input type="hidden" name="id" value="<?php echo $id; ?>">
-                        <input type="submit" name="submit" value="Salvar" class="btn-secondary">
+                        <input type="submit" name="submit" value="Change Password" class="btn-secondary">
                     </td>
                 </tr>
 
@@ -94,18 +94,26 @@
                             }
                         }
                         else
-                        {                       
+                        {
+                         
                             $_SESSION['pwd-not-match'] = "<div class='error'>Erro bigobel </div>";
                           
                             header('location:'.SITEURL.'admin/manage-admin.php');
+
                         }
                     }
                     else
                     {
-                        $_SESSION['user-not-found'] = "<div class='error'>Erro de Usuário</div>";
+                        //User Does not Exist Set Message and REdirect
+                        $_SESSION['user-not-found'] = "<div class='error'>User Not Found. </div>";
+                        //Redirect the User
                         header('location:'.SITEURL.'admin/manage-admin.php');
                     }
                 }
+
+                //3. CHeck Whether the New Password and Confirm Password Match or not
+
+                //4. Change PAssword if all above is true
             }
 
 ?>
