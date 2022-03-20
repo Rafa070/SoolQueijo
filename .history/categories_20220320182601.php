@@ -32,10 +32,3 @@ if($count>0) {
     }
 }
 
-else {
-    echo "<div class='error'>Categoria não encontrada.</div>";
-}
-
-?><div class="clearfix"></div>
-    </div>
-</section><?php include('partials-front/footer.php');
