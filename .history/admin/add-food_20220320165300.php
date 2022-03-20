@@ -89,16 +89,16 @@
                 <tr>
                     <td>Em estoque: </td>
                     <td>
-                        <input type="radio" name="featured" value="Sim"> Sim 
-                        <input type="radio" name="featured" value="Não"> Não
+                        <input type="radio" name="featured" value="Si"> Sim 
+                        <input type="radio" name="featured" value="No"> Não
                     </td>
                 </tr>
 
                 <tr>
                     <td>Activar: </td>
                     <td>
-                        <input type="radio" name="active" value="Sim"> Sim 
-                        <input type="radio" name="active" value="Não"> Não
+                        <input type="radio" name="active" value="Si"> Sim 
+                        <input type="radio" name="active" value="No"> Não
                     </td>
                 </tr>
 
