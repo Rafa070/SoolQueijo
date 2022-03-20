@@ -52,13 +52,8 @@
             }
 
             ?>
-        </div>
-        
-        
-        <div class="food-menu-desc"><h4><?php echo $title;
-            ?>
-        
-        </h4><p class="food-price">R$<?php echo $price;
+        </div><div class="food-menu-desc"><h4><?php echo $title;
+            ?></h4><p class="food-price">R$<?php echo $price;
             ?></p><p class="food-detail"><?php echo $description;
             ?></p><br></div></div><?php
         }

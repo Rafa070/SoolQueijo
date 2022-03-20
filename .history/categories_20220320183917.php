@@ -1,9 +1,6 @@
 <?php 
-
 include('partials-front/menu.php');
-?>
-
-<section class="categories">
+?><section class="categories">
     <div class="container">
         <h2 class="text-center">Explorar Comidas</h2><?php $sql="SELECT * FROM tbl_category WHERE active='Yes'";
 

@@ -1,16 +1,11 @@
     <?php include('partials-front/menu.php');
 
-    ?>
-    
-    
-    <?php 
-    
-    
-    if(isset($_GET['category_id'])) {
+    ?><?php if(isset($_GET['category_id'])) {
 
         $category_id=$_GET['category_id'];
 
         $sql="SELECT title FROM tbl_category WHERE id=$category_id";
+
 
         $res=mysqli_query($conn, $sql);
 
@@ -51,15 +46,10 @@
                 ?><img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>"alt="Chicke Hawain Pizza"class="img-responsive img-curve"><?php
             }
 
-            ?>
-        </div>
-        
-        
-        <div class="food-menu-desc"><h4><?php echo $title;
-            ?>
-        
-        </h4><p class="food-price">R$<?php echo $price;
+            ?></div><div class="food-menu-desc"><h4><?php echo $title;
+            ?></h4><p class="food-price">R$<?php echo $price;
             ?></p><p class="food-detail"><?php echo $description;
+            
             ?></p><br></div></div><?php
         }
     }
