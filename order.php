@@ -85,16 +85,16 @@
                 <fieldset>
                     <legend>Detalhes do Pedido</legend>
                     <div class="order-label">Nome completo</div>
-                    <input type="text" name="full-name" placeholder="E.g. Vijay Thapa" class="input-responsive" required>
+                    <input type="text" name="full-name" placeholder="Sool Queijo" class="input-responsive" required>
 
                     <div class="order-label">Número de telefone</div>
-                    <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="input-responsive" required>
+                    <input type="tel" name="contact" placeholder="(00)0000-0000" class="input-responsive" required>
 
                     <div class="order-label">Email</div>
-                    <input type="email" name="email" placeholder="E.g. hi@vijaythapa.com" class="input-responsive" required>
+                    <input type="email" name="email" placeholder="soolqueijo@ifrn.edu.br" class="input-responsive" required>
 
                     <div class="order-label">Endereço</div>
-                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+                    <textarea name="address" rows="10" placeholder="Rua SoolQueijo, Canguaretama - RN" class="input-responsive" required></textarea>
 
                     <input type="submit" name="submit" value="Confirma Pedido" class="btn btn-primary">
                 </fieldset>

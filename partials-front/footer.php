@@ -1,6 +1,6 @@
     <section class="footer">
         <div class="container text-center">
-            <p>All rights reserved SoolQueijo.</p>
+        <p class="text-center">2022 Todos os direitos Reservados a- <a href="#">SoolQueijo</a></p>
         </div>
     </section>
    
