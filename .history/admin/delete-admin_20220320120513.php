@@ -21,7 +21,7 @@
     else
     {
 
-        $_SESSION['delete'] = "<div class='error'>Erro, tente novamente</div>";
+        $_SESSION['delete'] = "<div class='error'>Failed to Delete Admin. Try Again Later.</div>";
         header('location:'.SITEURL.'admin/manage-admin.php');
     }
 ?>

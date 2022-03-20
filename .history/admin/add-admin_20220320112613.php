@@ -18,21 +18,21 @@
 
             <table class="tbl-30">
                 <tr>
-                    <td>Nome: </td>
+                    <td>Full Name: </td>
                     <td>
                         <input type="text" name="full_name" placeholder="Nome">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Usuário: </td>
+                    <td>Username: </td>
                     <td>
                         <input type="text" name="username" placeholder="Nome de usuário">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Senha: </td>
+                    <td>Password: </td>
                     <td>
                         <input type="password" name="password" placeholder="senha">
                     </td>

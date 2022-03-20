@@ -46,12 +46,12 @@
                     <td>Em Estoque: </td>
                     <td>
                         <input type="radio" name="featured" value="Yes"> Sim 
-                        <input type="radio" name="featured" value="No"> Não 
+                        <input type="radio" name="featured" value="No"> Naõ 
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Ativar: </td>
+                    <td>Ativar oferta: </td>
                     <td>
                         <input type="radio" name="active" value="Yes"> Sim 
                         <input type="radio" name="active" value="No"> Não

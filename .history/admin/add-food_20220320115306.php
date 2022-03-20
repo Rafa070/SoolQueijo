@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Adicionar Lanche</h1>
+        <h1>Add Food</h1>
 
         <br><br>
 
@@ -104,7 +104,7 @@
 
                 <tr>
                     <td colspan="2">
-                        <input type="submit" name="submit" value="Adicionar" class="btn-secondary">
+                        <input type="submit" name="submit" value="Add Food" class="btn-secondary">
                     </td>
                 </tr>
 

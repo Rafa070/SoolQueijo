@@ -18,21 +18,21 @@
 
             <table class="tbl-30">
                 <tr>
-                    <td>Nome: </td>
+                    <td>Full Name: </td>
                     <td>
                         <input type="text" name="full_name" placeholder="Nome">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Usuário: </td>
+                    <td>Username: </td>
                     <td>
                         <input type="text" name="username" placeholder="Nome de usuário">
                     </td>
                 </tr>
 
                 <tr>
-                    <td>Senha: </td>
+                    <td>Password: </td>
                     <td>
                         <input type="password" name="password" placeholder="senha">
                     </td>
@@ -40,7 +40,7 @@
 
                 <tr>
                     <td colspan="2">
-                        <input type="submit" name="submit" value="Adicionar Administrador" class="btn-secondary">
+                        <input type="submit" name="submit" value="Add Admin" class="btn-secondary">
                     </td>
                 </tr>
 
@@ -74,12 +74,12 @@
     
         if($res==TRUE)
         {
-            $_SESSION['add'] = "<div class='success'>Administrador Adicionado</div>";
+            $_SESSION['add'] = "<div class='success'>Admin Added Successfully.</div>";
             header("location:".SITEURL.'admin/manage-admin.php');
         }
         else
         {
-            $_SESSION['add'] = "<div class='error'>Puts, deu ruim, tente novamente.</div>";
+            $_SESSION['add'] = "<div class='error'>Failed to Add Admin.</div>";
             header("location:".SITEURL.'admin/add-admin.php');
         }
 
