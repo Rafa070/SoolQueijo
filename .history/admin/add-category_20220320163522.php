@@ -119,13 +119,13 @@
                 $res = mysqli_query($conn, $sql);               
                 if($res==true)
                 {                  
-                    $_SESSION['add'] = "<div class='success'>Categoria Adicionada</div>";
+                    $_SESSION['add'] = "<div class='success'>Categoia Adicionada</div>";
                   
                     header('location:'.SITEURL.'admin/manage-category.php');
                 }
                 else
                 {                  
-                    $_SESSION['add'] = "<div class='error'>erro na categoria</div>";
+                    $_SESSION['add'] = "<div class='error'>Failed to Add Category.</div>";
                    
                     header('location:'.SITEURL.'admin/add-category.php');
                 }

@@ -100,7 +100,7 @@
                         $upload = move_uploaded_file($source_path, $destination_path);                      
                         if($upload==false)
                         {                        
-                            $_SESSION['upload'] = "<div class='error'>Sucesso ao adicionar imagem </div>";                    
+                            $_SESSION['upload'] = "<div class='error'>S </div>";                    
                             header('location:'.SITEURL.'admin/add-category.php');                     
                             die();
                         }
@@ -119,13 +119,13 @@
                 $res = mysqli_query($conn, $sql);               
                 if($res==true)
                 {                  
-                    $_SESSION['add'] = "<div class='success'>Categoria Adicionada</div>";
+                    $_SESSION['add'] = "<div class='success'>Category Added Successfully.</div>";
                   
                     header('location:'.SITEURL.'admin/manage-category.php');
                 }
                 else
                 {                  
-                    $_SESSION['add'] = "<div class='error'>erro na categoria</div>";
+                    $_SESSION['add'] = "<div class='error'>Failed to Add Category.</div>";
                    
                     header('location:'.SITEURL.'admin/add-category.php');
                 }

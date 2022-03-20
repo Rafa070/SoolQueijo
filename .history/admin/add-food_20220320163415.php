@@ -167,7 +167,7 @@
                         if($upload==false)
                         {
                             
-                            $_SESSION['upload'] = "<div class='error'>Falha</div>";
+                            $_SESSION['upload'] = "<div class='error'F.</div>";
                             header('location:'.SITEURL.'admin/add-food.php');
                            
                             die();

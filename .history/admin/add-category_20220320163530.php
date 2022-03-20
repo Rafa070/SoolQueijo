@@ -119,7 +119,7 @@
                 $res = mysqli_query($conn, $sql);               
                 if($res==true)
                 {                  
-                    $_SESSION['add'] = "<div class='success'>Categoria Adicionada</div>";
+                    $_SESSION['add'] = "<div class='success'>Categoia Adicionada</div>";
                   
                     header('location:'.SITEURL.'admin/manage-category.php');
                 }
