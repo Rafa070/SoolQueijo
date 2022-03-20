@@ -205,7 +205,7 @@
                         if($upload==false)
                         {
                             
-                            $_SESSION['upload'] = "<div class='error'>Falha ao atualizar a nova imagem.</div>";
+                            $_SESSION['upload'] = "<div class='error'>Falha ao atualizar a nova imagem</div>";
                              
                             header('location:'.SITEURL.'admin/manage-food.php');
                             
@@ -223,7 +223,7 @@
                             if($remove==false)
                             {
                              
-                                $_SESSION['remove-failed'] = "<div class='error'>Falha ao remover a imagem atual.</div>";
+                                $_SESSION['remove-failed'] = "<div class='error'>Falha ao remover a imagem atual</div>";
                                
                                 header('location:'.SITEURL.'admin/manage-food.php');
                               
@@ -262,13 +262,13 @@
                 if($res3==true)
                 {
                     
-                    $_SESSION['update'] = "<div class='success'>Comida atualizada com sucesso.</div>";
+                    $_SESSION['update'] = "<div class='success'>Lanche atualizado com sucesso.</div>";
                     header('location:'.SITEURL.'admin/manage-food.php');
                 }
                 else
                 {
                     
-                    $_SESSION['update'] = "<div class='error'>Falha na atualização da comida.</div>";
+                    $_SESSION['update'] = "<div class='error'>Falha na atualização</div>";
                     header('location:'.SITEURL.'admin/manage-food.php');
                 }
 
@@ -279,5 +279,3 @@
 
     </div>
 </div>
-
-<?php include('partials/footer.php'); ?>
