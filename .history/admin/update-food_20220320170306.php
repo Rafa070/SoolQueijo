@@ -205,7 +205,7 @@
                         if($upload==false)
                         {
                             
-                            $_SESSION['upload'] = "<div class='error'>Falha ao atualizar a nova imagem</div>";
+                            $_SESSION['upload'] = "<div class='error'>Falha ao atualizar a nova imagem.</div>";
                              
                             header('location:'.SITEURL.'admin/manage-food.php');
                             

@@ -94,7 +94,7 @@
         if($res==true)
         {
             
-            $_SESSION['update'] = "<div class='success'>Atualizado com sucesso</div>";
+            $_SESSION['update'] = "<div class='success'>Atualizado com suce.</div>";
             
             header('location:'.SITEURL.'admin/manage-admin.php');
         }

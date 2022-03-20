@@ -205,7 +205,7 @@
                         if($upload==false)
                         {
                             
-                            $_SESSION['upload'] = "<div class='error'>Falha ao atualizar a nova imagem</div>";
+                            $_SESSION['upload'] = "<div class='error'>Falha ao atualizar a nova imagem.</div>";
                              
                             header('location:'.SITEURL.'admin/manage-food.php');
                             
@@ -223,7 +223,7 @@
                             if($remove==false)
                             {
                              
-                                $_SESSION['remove-failed'] = "<div class='error'>Falha ao remover a imagem atual</div>";
+                                $_SESSION['remove-failed'] = "<div class='error'>Falha ao remover a imagem atual.</div>";
                                
                                 header('location:'.SITEURL.'admin/manage-food.php');
                               

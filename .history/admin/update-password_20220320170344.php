@@ -95,7 +95,7 @@
                         }
                         else
                         {                       
-                            $_SESSION['pwd-not-match'] = "<div class='error'>Erro na solicitação </div>";
+                            $_SESSION['pwd-not-match'] = "<div class='error'>Erro na solicitaç </div>";
                           
                             header('location:'.SITEURL.'admin/manage-admin.php');
                         }
