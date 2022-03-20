@@ -70,6 +70,7 @@ if($res==TRUE) {
             </tr><?php
         }
     }
+
     else {}
 }
 
