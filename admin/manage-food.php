@@ -50,7 +50,7 @@
                         <th>Título</th>
                         <th>Preço</th>
                         <th>Imagem</th>
-                        <th>Destaque</th>
+                        <th>Estoque</th>
                         <th>Ativo</th>
                         <th>Ações</th>
                     </tr>
@@ -85,7 +85,7 @@
                                 <tr>
                                     <td><?php echo $sn++; ?>. </td>
                                     <td><?php echo $title; ?></td>
-                                    <td>$<?php echo $price; ?></td>
+                                    <td>R$<?php echo $price; ?></td>
                                     <td>
                                         <?php  
                                             
