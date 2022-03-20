@@ -14,7 +14,7 @@
     
     if($res==true)
     {
-        $_SESSION['delete'] = "<div class='success'>Administrador deletado com sucesso.</div>";
+        $_SESSION['delete'] = "<div class='success'>Administrador deletado com sucesso..</div>";
 
         header('location:'.SITEURL.'admin/manage-admin.php');
     }

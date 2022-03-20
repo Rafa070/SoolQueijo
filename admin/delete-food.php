@@ -20,7 +20,7 @@
             if($remove==false)
             {
             
-                $_SESSION['upload'] = "<div class='error'>Falha no upload</div>";
+                $_SESSION['upload'] = "<div class='error'>Falha no upload.</div>";
                 
                 header('location:'.SITEURL.'admin/manage-food.php');
                

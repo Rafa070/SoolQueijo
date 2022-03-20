@@ -14,7 +14,7 @@
 
             if($remove==false)
             {
-                $_SESSION['remove'] = "<div class='error'>Falha</div>";
+                $_SESSION['remove'] = "<div class='error'>Falha.</div>";
                 header('location:'.SITEURL.'admin/manage-category.php');
               
                 die();

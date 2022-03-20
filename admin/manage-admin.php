@@ -2,7 +2,7 @@
 
 ?><div class="main-content">
     <div class="wrapper">
-        <h1>Controle de Acesso</h1><br /><?php if(isset($_SESSION['add'])) {
+        <h1>Controle de Acesso.</h1><br /><?php if(isset($_SESSION['add'])) {
     echo $_SESSION['add'];
     unset($_SESSION['add']);
 }

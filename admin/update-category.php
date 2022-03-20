@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Atualizar Categoria</h1>
+        <h1>Atualizar Categoria.</h1>
 
         <br><br>
 

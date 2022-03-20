@@ -35,7 +35,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Atualizar comida</h1>
+        <h1>Atualizar comida.</h1>
         <br><br>
 
         <form action="" method="POST" enctype="multipart/form-data">
