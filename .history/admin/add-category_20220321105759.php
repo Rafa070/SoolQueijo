@@ -67,7 +67,7 @@
             </table>
 
         </form>
-      
+        <!-- Adicionar Categoria End -->
         <?php   
             if(isset($_POST['submit']))
             {       

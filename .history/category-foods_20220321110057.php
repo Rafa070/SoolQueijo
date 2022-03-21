@@ -31,10 +31,8 @@
     <section class="food-menu">
         <div class="container">
             <h2 class="text-center">Menu</h2><?php $sql2="SELECT * FROM tbl_food WHERE category_id=$category_id";
-
     $res2=mysqli_query($conn, $sql2);
     $count2=mysqli_num_rows($res2);
-
     if($count2>0) {
 
         while($row2=mysqli_fetch_assoc($res2)) {
@@ -74,7 +72,7 @@
     }
     else {
 
-        echo "<div class='error'>Indisponível</div>";
+        echo "<div class='error'>Indisponível .</div>";
     }
     ?><div class="clearfix"></div>
         </div>

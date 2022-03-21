@@ -31,11 +31,9 @@ if($count>0) {
 
         ?>
         <h3 class="float-text text-white"><?php echo $title;
-        ?>
-        </h3>
+        ?></h3>
             </div>
-        </a>
-        <?php
+        </a><?php
     }
 }
 
