@@ -59,6 +59,7 @@
           </ul>
         </div>
       </div>
+
       
       <div class="footer-content-column">
         <div class="footer-menu">

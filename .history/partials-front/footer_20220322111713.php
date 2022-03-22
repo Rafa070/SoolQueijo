@@ -59,7 +59,31 @@
           </ul>
         </div>
       </div>
-      
+
+      <div class="footer-content-column">
+        <div class="footer-menu">
+          <h2 class="footer-menu-name">SERVIÇOS</h2>
+          <ul id="menu-company" class="footer-menu-list">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <a href="#">Delivery</a>
+            </li>
+            <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+              <a href="#">Rodizios</a>
+            </li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <a href="#">Desafio do Burger Gigante</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-menu">
+          <h2 class="footer-menu-name">Termos de uso</h2>
+          <ul id="menu-legal" class="footer-menu-list">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+              <a href="#">Privacidade</a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div class="footer-content-column">
         <div class="footer-menu">
           <h2 class="footer-menu-name">Parcerias</h2>
