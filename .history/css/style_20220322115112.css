@@ -73,7 +73,7 @@ h3{
     left: 40%;
 }
 fieldset{
-    border: 1px solid white;
+    border: 1px solid #ececec;
     margin: 5%;
     padding: 3%;
     border-radius: 5px;
@@ -125,7 +125,6 @@ fieldset{
 
 .categories{
     padding: 4% 0;
-    background-color: #ececec;
 }
 
 .box-3{
@@ -143,7 +142,7 @@ fieldset{
     margin: 1%;
     padding: 2%;
     float: left;
-    background-color: white;
+    background-color: #ececec;
     border-radius: 15px;
 }
 

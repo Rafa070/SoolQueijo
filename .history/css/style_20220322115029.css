@@ -125,7 +125,6 @@ fieldset{
 
 .categories{
     padding: 4% 0;
-    background-color: #ececec;
 }
 
 .box-3{
@@ -143,7 +142,7 @@ fieldset{
     margin: 1%;
     padding: 2%;
     float: left;
-    background-color: white;
+    background-color: #ececec;
     border-radius: 15px;
 }
 
