@@ -19,12 +19,10 @@ if($count>0) {
 
         ?><a href="<?php echo SITEURL; ?>category-foods.php?category_id=<?php echo $id; ?>">
             <div class="box-3 float-container"><?php if($image_name=="") {
-            //erro de imagem
             echo "<div class='error'>Imagem não encontrada.</div>";
         }
 
         else {
-            //iamgem da categoria
             ?><img src="<?php echo SITEURL; ?>images/category/<?php echo $image_name; ?>" alt="Pizza"
                     class="img-responsive img-curve"><?php
         }

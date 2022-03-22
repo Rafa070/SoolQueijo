@@ -115,12 +115,6 @@ table tr td{
     color: white;
 }
 
-*,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background: #fff;
 }
