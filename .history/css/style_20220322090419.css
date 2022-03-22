@@ -25,7 +25,7 @@
     text-align: left;
 }
 .text-white{
-    color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
 }
 
 .clearfix{
@@ -63,6 +63,7 @@ h2{
 }
 h3{
     font-size: 1.5rem;
+    color
 }
 .float-container{
     position: relative;

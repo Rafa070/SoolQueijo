@@ -25,7 +25,7 @@
     text-align: left;
 }
 .text-white{
-    color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
 }
 
 .clearfix{
@@ -34,7 +34,7 @@
 }
 
 a{
-    color: #ff6b81;
+    color: #ffffff;
     text-decoration: none;
 }
 a:hover{
