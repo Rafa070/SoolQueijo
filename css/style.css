@@ -25,7 +25,7 @@
     text-align: left;
 }
 .text-white{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .clearfix{
@@ -57,7 +57,7 @@ a:hover{
     background-color: #ff4757;
 }
 h2{
-    color: #2f3542;
+    color: #000000;
     font-size: 2rem;
     margin-bottom: 2%;
 }
@@ -98,6 +98,7 @@ fieldset{
 }
 .menu ul{
     list-style-type: none;
+
 }
 
 .menu ul li{
@@ -189,7 +190,6 @@ fieldset{
     margin-bottom: 1%; 
     font-weight: bold;
 }
-
 
 @media only screen and (max-width:768px){
     .logo{
