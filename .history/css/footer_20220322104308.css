@@ -3,8 +3,8 @@
   }
   
   .footer {
-    background-color: #1891af;
-    color: #ececec;
+    background-color: #004658;
+    color: #dd0808;
   }
   .footer-wave-svg {
     background-color: transparent;
@@ -15,7 +15,7 @@
     width: 100%;
   }
   .footer-wave-path {
-    fill: #ececec;
+    fill: #8104e7;
   }
   
   .footer-content {
