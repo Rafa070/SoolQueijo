@@ -124,6 +124,7 @@ table tr td{
 @media only screen and (max-width:768px){
     .menu{
         border-bottom: 1px solid grey;
+        ba
     }
     .menu ul{
         list-style-type: none;

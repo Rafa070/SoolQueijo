@@ -193,9 +193,9 @@ fieldset{
 
 @media only screen and (max-width:768px){
     .logo{
-        width: 35px;
-        float: left;
-        margin: 2% auto;
+        width: 0px;
+        float: none;
+        margin: 1% auto;
     }
 
     .menu ul{
