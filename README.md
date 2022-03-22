@@ -72,17 +72,6 @@ Clique em Admin no MySql do painel de controle para abrir o <strong>phpmyadmin</
 
 <li>Deletar Lanche</i>
 
-<h3>Interação com a tela de <strong>COMENTARIOS</strong></h3>
-<p>Funcionalidades</p>
-
-<li>Adicionar</i>
-
-<li>Comentar</i>
-
-<li>Editar</i>
-
-<li>Deletar</i>
-
 <h3>Fazer Logout</h3>
 
 <p>Após realizar procedimentis, utilizar o botão logout para sair da tela <strong>de Funcionários</strong></p>
