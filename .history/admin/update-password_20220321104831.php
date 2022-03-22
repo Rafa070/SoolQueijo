@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Alterar senha</h1>
+        <h1>Alterar senha.</h1>
         <br><br>
 
         <?php 

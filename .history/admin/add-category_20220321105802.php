@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Adionar Categoria</h1>
+        <h1>Adionar Categoria.</h1>
 
         <br><br>
 

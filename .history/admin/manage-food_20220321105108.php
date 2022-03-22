@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Gerenciamento</h1>
+        <h1>Gerenciamento.</h1>
 
         <br /><br />
 
