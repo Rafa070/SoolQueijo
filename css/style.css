@@ -197,7 +197,9 @@ fieldset{
         float: left;
         margin: 2% auto;
     }
-
+    a {
+        font-size: 14px;
+      }
     .menu ul{
         text-align: center;
     }
