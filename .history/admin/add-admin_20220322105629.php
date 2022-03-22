@@ -2,7 +2,7 @@
 
 <div class="main-content">
     <div class="wrapper">
-        <h1>Adicionar Funcionário</h1>
+        <h1>Adiciona.</h1>
 
         <br><br>
 
