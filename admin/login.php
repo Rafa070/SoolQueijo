@@ -9,10 +9,6 @@
 
 <body>
 
-    <div class="login">
-        <h1 class="text-center">Login.</h1>
-        <br><br>
-
         <?php 
                 if(isset($_SESSION['login']))
                 {
@@ -27,19 +23,33 @@
                 }
             ?>
         <br><br>
+        
+        <div class="content">
+  <div class="container">
+    <div class="form">
+      <form action="" method="POST" class="text-center">
+        <label>sÓ PARA FUNCIONÁRIOS</label>
+        <div class="opt-group">
+          <label>Usuário</label>
+          <input type="text" name="username" placeholder="Nome de Usuário" required>
+        </div>
+        <div class="opt-group">
+          <label>Senha</label>
+          <input type="password" name="password" placeholder="Insira a senha" required>
+        </div>
+        <div class="opt-group">
+          <input type="checkbox" name="remember" class="remember" id="remember">
+          <label class="checkbox" for="remember">Lembre-se de mim</label>
+        </div>
+        <input type="submit" name="submit" value="Login">
 
+        <a href="#">Esqueceu a Senha?</a>
 
-        <form action="" method="POST" class="text-center">
-            Nome de usuário: <br>
-            <input type="text" name="username" placeholder="Enter Username"><br><br>
+      </form>
 
-            Senha: <br>
-            <input type="password" name="password" placeholder="Enter Password"><br><br>
-
-            <input type="submit" name="submit" value="Login" class="btn-primary">
-            <br><br>
-        </form>
-        <li><a href="http://localhost/food-order/" class="text-center">Tela Inicial</a></li>
+    </div>
+  </div>
+</div>
     </div>
 
 </body>
