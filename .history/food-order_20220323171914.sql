@@ -89,6 +89,8 @@ INSERT INTO `tbl_food` (`id`, `title`, `description`, `price`, `image_name`, `ca
 (13, 'Burger', 'Podrão', '29.00', 'Food-Name-2814.jpg', 5, 'Yes', 'Yes'),
 (14, 'Burger', 'Hambúrguer text', '19.00', 'Food-Name-576.jpg', 5, 'Yes', 'Yes');
 
+
+
 --
 -- Índices para tabela `tbl_admin`
 --
@@ -106,6 +108,10 @@ ALTER TABLE `tbl_category`
 --
 ALTER TABLE `tbl_food`
   ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT de tabelas despejadas
+--
 
 --
 -- AUTO_INCREMENT de tabela `tbl_admin`
@@ -126,3 +132,6 @@ ALTER TABLE `tbl_food`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
