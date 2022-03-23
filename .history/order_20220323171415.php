@@ -43,7 +43,7 @@ else {
 }
             else {
                 ?>
-                 <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Lanche escolhido" class="img-responsive img-curve"><?php
+                 <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Lanche escolh" class="img-responsive img-curve"><?php
                 }    
                   ?>
                    </div>

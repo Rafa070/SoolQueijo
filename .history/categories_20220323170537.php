@@ -23,7 +23,7 @@ if($count>0) {
         }
 
         else {
-            ?><img src="<?php echo SITEURL; ?>images/category/<?php echo $image_name; ?>" alt="Imagem das categorias de lanches"
+            ?><img src="<?php echo SITEURL; ?>images/category/<?php echo $image_name; ?>" alt="Imagem das categorias de l"
                     class="img-responsive img-curve"><?php
         }
 

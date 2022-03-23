@@ -52,7 +52,7 @@
 
             else {
 
-                ?><img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Lanches"
+                ?><img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Lan"
                         class="img-responsive img-curve"><?php
             }
             ?>

@@ -104,6 +104,8 @@ else {
     echo "<div class='error'>Comida Indisponível.</div>";
 }
 ?>
+        <div class="clearfix"></div>
+    </div>
 </section>
 <?php include('partials-front/footer.php');
 ?>

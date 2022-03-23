@@ -16,7 +16,7 @@
         <div class="container">
             <div class="logo">
                 <a href="index.php" title="Logo">
-                    <img src="images/logo.jpg" alt="Logo da Lanchonete SoolQueijo" class="img-responsive">
+                    <img src="images/logo.jpg" alt="Logo SoolQueijo" class="img-responsive">
                 </a>
             </div>
 
@@ -32,7 +32,7 @@
                         <a href="<?php echo SITEURL; ?>foods.php">Comidas</a>
                     </li>
                     <li>
-                        <a href="<?php echo SITEURL; ?>admin/login.php">Funcionário</a>
+                        <a href="<?php echo SITEURL; ?>admin/login.php">Login</a>
                     </li>
                 </ul>
             </div>

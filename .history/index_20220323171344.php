@@ -79,7 +79,7 @@ if($count2>0) {
               }
                else {
                   ?>
-                <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Imagem do lanche"
+                <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Imagem de l"
                     class="img-responsive img-curve"><?php
                      }
                     ?>
@@ -104,6 +104,8 @@ else {
     echo "<div class='error'>Comida Indisponível.</div>";
 }
 ?>
+        <div class="clearfix"></div>
+    </div>
 </section>
 <?php include('partials-front/footer.php');
 ?>

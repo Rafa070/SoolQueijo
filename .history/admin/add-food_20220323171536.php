@@ -97,8 +97,8 @@
                 <tr>
                     <td>Activar: </td>
                     <td>
-                        <input type="radio" name="active" value="Yes"> Sim 
-                        <input type="radio" name="active" value="No"> Não
+                        <input type="radio" name="active" value=""> Sim 
+                        <input type="radio" name="active" value="Não"> Não
                     </td>
                 </tr>
 

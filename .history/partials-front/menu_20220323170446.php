@@ -16,7 +16,7 @@
         <div class="container">
             <div class="logo">
                 <a href="index.php" title="Logo">
-                    <img src="images/logo.jpg" alt="Logo da Lanchonete SoolQueijo" class="img-responsive">
+                    <img src="images/logo.jpg" alt="Logo da SoolQueijo" class="img-responsive">
                 </a>
             </div>
 

@@ -35,7 +35,7 @@ include('partials-front/menu.php');
              else {
                ?>
 
-                <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Imagem de lanche"
+                <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="F"
                     class="img-responsive img-curve"><?php
         }
        ?>
