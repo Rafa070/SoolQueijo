@@ -85,7 +85,7 @@
         <div class="footer-call-to-action">
           <h2 class="footer-call-to-action-title">Dúvidas?</h2>
           <p class="footer-call-to-action-description"> Entre em contato conosco</p>
-          <a class="footer-call-to-action-button button" href="https://api.whatsapp.com/send?phone=55840000000000" target="_self"> WHATSAPP </a>
+          <a class="footer-call-to-action-button button" href="#" target="_self"> WHATSAPP </a>
         </div>
         <div class="footer-call-to-action">
           <h2 class="footer-call-to-action-title"> Reclamações</h2>
@@ -112,7 +112,7 @@
             <path class="footer-social-icon-path" d="M 15 4 C 10.814 4 5.3808594 5.0488281 5.3808594 5.0488281 L 5.3671875 5.0644531 C 3.4606632 5.3693645 2 7.0076245 2 9 L 2 15 L 2 15.001953 L 2 21 L 2 21.001953 A 4 4 0 0 0 5.3769531 24.945312 L 5.3808594 24.951172 C 5.3808594 24.951172 10.814 26.001953 15 26.001953 C 19.186 26.001953 24.619141 24.951172 24.619141 24.951172 L 24.621094 24.949219 A 4 4 0 0 0 28 21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0 24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141 5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12 19.601562 L 12 10.398438 z"></path>
           </svg>
         </a>
-        <a class="footer-social-link facebook" href="https://www.facebook.com/" target="_blank">
+        <a class="footer-social-link facebook" href="#" target="_blank">
           <span class="hidden-link-text">Facebook</span>
           <svg class="footer-social-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 64 64" id="Layer_1" version="1.1" viewBox="0 0 64 64" xml:space="preserve">
               <path class="footer-social-icon-path" d="M32,7.174C18.311,7.174,7.174,18.311,7.174,32c0,13.689,11.137,24.826,24.826,24.826c13.689,0,24.826-11.137,24.826-24.826  C56.826,18.311,45.689,7.174,32,7.174z M38.174,32.874h-4.039c0,6.453,0,14.398,0,14.398h-5.985c0,0,0-7.868,0-14.398h-2.845v-5.088  h2.845v-3.291c0-2.357,1.12-6.04,6.04-6.04l4.433,0.017v4.939c0,0-2.695,0-3.219,0c-0.524,0-1.268,0.262-1.268,1.386v2.99h4.56  L38.174,32.874z"/></svg>

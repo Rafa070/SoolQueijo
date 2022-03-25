@@ -85,7 +85,7 @@
         <div class="footer-call-to-action">
           <h2 class="footer-call-to-action-title">Dúvidas?</h2>
           <p class="footer-call-to-action-description"> Entre em contato conosco</p>
-          <a class="footer-call-to-action-button button" href="https://api.whatsapp.com/send?phone=55840000000000" target="_self"> WHATSAPP </a>
+          <a class="footer-call-to-action-button button" href="#" target="_self"> WHATSAPP </a>
         </div>
         <div class="footer-call-to-action">
           <h2 class="footer-call-to-action-title"> Reclamações</h2>

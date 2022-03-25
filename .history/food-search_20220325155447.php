@@ -37,7 +37,7 @@ include('partials-front/menu.php');
                     echo $title;   
                     ?>
                 </h4>
-                <p class="food-price">R$<?php echo $price;
+                <p class="food-price">$<?php echo $price;
               ?>
                 </p>
                 <p class="food-detail"><?php echo $description;
