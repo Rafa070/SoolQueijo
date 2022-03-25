@@ -58,7 +58,7 @@
                                 else
                                 {
                                     ?>
-                                    <option value="0">No Category Found</option>
+                                    <option value="0">Indisponível</option>
                                     <?php
                                 }
                             ?>
@@ -73,7 +73,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Activar: </td>
+                    <td>Ativo: </td>
                     <td>
                         <input type="radio" name="active" value="Yes"> Sim 
                         <input type="radio" name="active" value="No"> Não
