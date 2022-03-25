@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <link rel="stylesheet" href="css/footer.css">
 </head>
-
 <body>
-
 <div class="pg-footer">
   <footer class="footer">
     <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
@@ -59,7 +56,6 @@
           </ul>
         </div>
       </div>
-      
       <div class="footer-content-column">
         <div class="footer-menu">
           <h2 class="footer-menu-name">Parcerias</h2>
@@ -132,6 +128,5 @@
     </div>
   </footer>
 </div>
-
 </body>
 </html>

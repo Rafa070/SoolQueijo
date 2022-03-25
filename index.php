@@ -19,7 +19,6 @@
      $count=mysqli_num_rows($res);
        if($count>0) {
         while($row=mysqli_fetch_assoc($res)) {
-
         $id=$row['id'];
         $title=$row['title'];
         $image_name=$row['image_name'];
@@ -41,12 +40,9 @@
         <?php
     }
 }
-
 else {
-
     echo "<div class='error'>Categoria não adicionada .</div>";
 }
-
 ?>
         <div class="clearfix"></div>
     </div>
@@ -54,24 +50,15 @@ else {
 <section class="food-menu">
     <div class="container">
         <h2 class="text-center">Menu</h2><?php $sql2="SELECT * FROM tbl_food WHERE active='Yes' AND featured='Yes' LIMIT 6";
-
-
 $res2=mysqli_query($conn, $sql2);
-
-
 $count2=mysqli_num_rows($res2);
-
-
 if($count2>0) {
-
     while($row=mysqli_fetch_assoc($res2)) {
-
         $id=$row['id'];
         $title=$row['title'];
         $price=$row['price'];
         $description=$row['description'];
         $image_name=$row['image_name'];
-
         ?>
         <div class="food-menu-box">
             <div class="food-menu-img"><?php if($image_name=="") {

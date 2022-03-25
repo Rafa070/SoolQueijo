@@ -1,9 +1,6 @@
     <?php include('partials-front/menu.php');
-
     ?>
-
-    <?php 
-      
+    <?php     
     if(isset($_GET['category_id'])) {
 
         $category_id=$_GET['category_id'];
@@ -16,12 +13,9 @@
 
         $category_title=$row['title'];
     }
-
     else {
-
         header('location:'.SITEURL);
     }
-
     ?>
     <section class="food-search text-center">
         <div class="container">
@@ -31,27 +25,20 @@
     <section class="food-menu">
         <div class="container">
             <h2 class="text-center">Menu</h2><?php $sql2="SELECT * FROM tbl_food WHERE category_id=$category_id";
-
     $res2=mysqli_query($conn, $sql2);
     $count2=mysqli_num_rows($res2);
-
     if($count2>0) {
-
         while($row2=mysqli_fetch_assoc($res2)) {
             $id=$row2['id'];
             $title=$row2['title'];
             $price=$row2['price'];
             $description=$row2['description'];
             $image_name=$row2['image_name'];
-
             ?><div class="food-menu-box">
                 <div class="food-menu-img"><?php if($image_name=="") {
-
                 echo "<div class='error'>Imagem Indisponível.</div>";
             }
-
             else {
-
                 ?><img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Lanches"
                         class="img-responsive img-curve"><?php
             }
@@ -73,7 +60,6 @@
         }
     }
     else {
-
         echo "<div class='error'>Indisponível</div>";
     }
     ?><div class="clearfix"></div>
