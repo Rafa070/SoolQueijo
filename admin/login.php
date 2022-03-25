@@ -36,7 +36,7 @@
           <label class="checkbox" for="remember">Lembre-se de mim</label>
         </div>
         <input type="submit" name="submit" value="Login">
-        <a href="#">Esqueceu a Senha?</a>
+        <a href="http://localhost/food-order/">Voltar pra tela inicial</a>
       </form>
     </div>
   </div>
