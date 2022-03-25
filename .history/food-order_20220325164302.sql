@@ -118,6 +118,7 @@ ALTER TABLE `tbl_admin`
 --
 ALTER TABLE `tbl_category`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
 --
 -- AUTO_INCREMENT de tabela `tbl_food`
 --
