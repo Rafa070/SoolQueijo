@@ -30,7 +30,7 @@
                         <a href="<?php echo SITEURL; ?>admin/login.php">Funcionário</a>
                     </li>
                     <li>
-                        <a href="<?php echo SITEURL; ?>time.php">Time</a>
+                        <a href="<?php echo SITEURL; ?>admin/login.php">Funcionário</a>
                     </li>
                 </ul>
             </div>

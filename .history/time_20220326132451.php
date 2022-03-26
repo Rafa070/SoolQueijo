@@ -73,3 +73,6 @@
     </div>
   </div>
 </section>
+
+<?php include('partials-front/footer.php');
+?>

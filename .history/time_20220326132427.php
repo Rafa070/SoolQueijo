@@ -1,6 +1,7 @@
 <?php include('partials-front/menu.php');
 ?>
 <link rel="stylesheet" href="css/time.css">
+<link rel="stylesheet" href="css/time.css">
 
 <section id="team" class="team content-section">
   <div class="container">
@@ -73,3 +74,6 @@
     </div>
   </div>
 </section>
+
+<?php include('partials-front/footer.php');
+?>
