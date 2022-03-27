@@ -3,7 +3,7 @@ include('partials-front/menu.php');
 ?>
 <section class="categories">
     <div class="container">
-        <h2 class="text-center">Explorar Comidas</h2><?php $sql="SELECT * FROM tbl_category WHERE active='Yes'";
+        <h2 class="text-center">Explorar Comidas</h2><?php $sql="SELECT * FROM tbl_category WHERE active='Sim'";
 $res=mysqli_query($conn, $sql);
 $count=mysqli_num_rows($res);
 if($count>0) {

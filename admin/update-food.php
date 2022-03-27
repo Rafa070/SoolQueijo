@@ -71,7 +71,7 @@
                 <td>
                     <select name="category">
                         <?php 
-                            $sql = "SELECT * FROM tbl_category WHERE active='Yes'";
+                            $sql = "SELECT * FROM tbl_category WHERE active='Sim'";
                             $res = mysqli_query($conn, $sql);
                             $count = mysqli_num_rows($res);
                             if($count>0)
@@ -96,15 +96,15 @@
             <tr>
                 <td>Estoque: </td>
                 <td>
-                    <input <?php if($featured=="Yes") {echo "checked";} ?> type="radio" name="featured" value="Sim"> Sim
-                    <input <?php if($featured=="No") {echo "checked";} ?> type="radio" name="featured" value="Não"> Não 
+                    <input <?php if($featured=="Sim") {echo "checked";} ?> type="radio" name="featured" value="Sim"> Sim
+                    <input <?php if($featured=="Não") {echo "checked";} ?> type="radio" name="featured" value="Não"> Não 
                 </td>
             </tr>
             <tr>
                 <td>Ativo: </td>
                 <td>
-                    <input <?php if($active=="Yes") {echo "checked";} ?> type="radio" name="active" value="Sim"> Sim
-                    <input <?php if($active=="No") {echo "checked";} ?> type="radio" name="active" value="Não"> Não 
+                    <input <?php if($active=="Sim") {echo "checked";} ?> type="radio" name="active" value="Sim"> Sim
+                    <input <?php if($active=="Não") {echo "checked";} ?> type="radio" name="active" value="Não"> Não 
                 </td>
             </tr>
             <tr>

@@ -80,7 +80,7 @@
                     }
                     else
                     {
-                        $_SESSION['user-not-found'] = "<div class='error'>Erro de Usuário</div>";
+                        $_SESSION['user-not-found'] = "<div class='error'>Senha atual esta incorreta</div>";
                         header('location:'.SITEURL.'admin/manage-admin.php');
                     }
                 }
