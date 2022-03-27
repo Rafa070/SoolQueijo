@@ -14,7 +14,7 @@
         <div class="row">
 
           <div class="col-md-4">
-            <div class="team-member">
+            <div class="team-member text-center">
               <figure>
                 <img src="images/time/afonsodev.jpeg" alt="Imagem de Afonso Santos, Desenvolvedor Web" class="img-responsive">
                 <figcaption>
@@ -31,7 +31,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 text-center">
             <div class="team-member">
               <figure>
                 <img src="images/time/monikdev.jpeg" alt="Imagem de Monik Gomes, Desenvolvedora Web" class="img-responsive">
@@ -50,7 +50,7 @@
           </div>
 
           <div class="col-md-4">
-            <div class="team-member">
+            <div class="team-member text-center">
               <figure>
                 <img src="images/time/rafaeldev.jpeg" alt="Imagem de Rafael Ribeiro, Desenvolvedor Web" class="img-responsive">
                 <figcaption>
