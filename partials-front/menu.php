@@ -34,8 +34,6 @@
                     </li>
                 </ul>
             </div>
-            <div class="clearfix"></div>
-        </div>
     </section>
 </body>
 </html>

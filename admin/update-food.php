@@ -96,15 +96,15 @@
             <tr>
                 <td>Estoque: </td>
                 <td>
-                    <input <?php if($featured=="Yes") {echo "checked";} ?> type="radio" name="featured" value="Yes"> Yes 
-                    <input <?php if($featured=="No") {echo "checked";} ?> type="radio" name="featured" value="No"> No 
+                    <input <?php if($featured=="Yes") {echo "checked";} ?> type="radio" name="featured" value="Sim"> Sim
+                    <input <?php if($featured=="No") {echo "checked";} ?> type="radio" name="featured" value="Não"> Não 
                 </td>
             </tr>
             <tr>
                 <td>Ativo: </td>
                 <td>
-                    <input <?php if($active=="Yes") {echo "checked";} ?> type="radio" name="active" value="Yes"> Yes
-                    <input <?php if($active=="No") {echo "checked";} ?> type="radio" name="active" value="No"> No 
+                    <input <?php if($active=="Yes") {echo "checked";} ?> type="radio" name="active" value="Sim"> Sim
+                    <input <?php if($active=="No") {echo "checked";} ?> type="radio" name="active" value="Não"> Não 
                 </td>
             </tr>
             <tr>

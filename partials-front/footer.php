@@ -89,7 +89,7 @@
         </div>
         <div class="footer-call-to-action">
           <h2 class="footer-call-to-action-title"> Reclamações</h2>
-          <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="#" target="_self"> +55 (84) 98100-0000 </a></p>
+          <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="#" target="_self">soolqueijo@company.com</a></p>
         </div>
       </div>
       <div class="footer-social-links"> <svg class="footer-social-amoeba-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 54">
@@ -122,7 +122,7 @@
     <div class="footer-copyright">
       <div class="footer-copyright-wrapper">
         <p class="footer-copyright-text">
-          <a class="footer-copyright-link" href="#" target="_self"> ©2022. | Sool Queijo Company | Todos os direitos Reservados. </a>
+          <a class="footer-copyright-link" href="#" target="_self"> ©2022 | Sool Queijo Company | Todos os direitos Reservados </a>
         </p>
       </div>
     </div>

@@ -11,7 +11,7 @@ include('partials-front/menu.php');
                     </section>
                  <section class="food-menu">
               <div class="container">
-            <h2 class="text-center">Menu</h2><?php $sql="SELECT * FROM tbl_food WHERE active='Yes'";
+            <h2 class="text-center">Menu</h2><?php $sql="SELECT * FROM tbl_food WHERE active='Sim'";
      $res=mysqli_query($conn, $sql);
      $count=mysqli_num_rows($res);
      if($count>0) {

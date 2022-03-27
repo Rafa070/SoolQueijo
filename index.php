@@ -14,7 +14,7 @@
                ?>
 <section class="categories">
     <div class="container">
-        <h2 class="text-center">Categoria</h2><?php $sql="SELECT * FROM tbl_category WHERE active='Yes' AND featured='Yes' LIMIT 3";
+        <h2 class="text-center">Categoria</h2><?php $sql="SELECT * FROM tbl_category WHERE active='Sim' AND featured='Sim' LIMIT 3";
    $res=mysqli_query($conn, $sql);
      $count=mysqli_num_rows($res);
        if($count>0) {
@@ -49,7 +49,7 @@ else {
 </section>
 <section class="food-menu">
     <div class="container">
-        <h2 class="text-center">Menu</h2><?php $sql2="SELECT * FROM tbl_food WHERE active='Yes' AND featured='Yes' LIMIT 6";
+        <h2 class="text-center">Menu</h2><?php $sql2="SELECT * FROM tbl_food WHERE active='Sim' AND featured='Sim' LIMIT 6";
 $res2=mysqli_query($conn, $sql2);
 $count2=mysqli_num_rows($res2);
 if($count2>0) {

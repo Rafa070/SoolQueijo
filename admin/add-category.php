@@ -33,15 +33,15 @@
                 <tr>
                     <td>Em Estoque: </td>
                     <td>
-                        <input type="radio" name="featured" value="Yes"> Sim 
-                        <input type="radio" name="featured" value="No"> Não 
+                        <input type="radio" name="featured" value="Sim"> Sim 
+                        <input type="radio" name="featured" value="Não"> Não 
                     </td>
                 </tr>
                 <tr>
                     <td>Ativar: </td>
                     <td>
-                        <input type="radio" name="active" value="Yes"> Sim 
-                        <input type="radio" name="active" value="No"> Não
+                        <input type="radio" name="active" value="Sim"> Sim 
+                        <input type="radio" name="active" value="Não"> Não
                     </td>
                 </tr>
                 <tr>
@@ -61,7 +61,7 @@
                 }
                 else
                 {           
-                    $featured = "No";
+                    $featured = "Não";
                 }
                 if(isset($_POST['active']))
                 {
@@ -69,7 +69,7 @@
                 }
                 else
                 {
-                    $active = "No";
+                    $active = "Não";
                 }
                 if(isset($_FILES['image']['name']))
                 {               
