@@ -24,7 +24,7 @@ else {
         <h2 class="text-center text-white">Preencha este formulário para confirmar seu pedido.</h2>
         <form action="" method="POST" class="order">
             <fieldset>
-                <legend>Selecionar Comida</legend>
+                <legend>Selecionar Lanche</legend>
                 <div class="food-menu-img"><?php if($image_name=="") {
     echo "<div class='error'>Imagem indisponível.</div>";
 }
