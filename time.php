@@ -20,7 +20,7 @@
                 <figcaption>
                   <p>Desenvolvedor Front-End com skills em UX/UI designer</p>
                   <ul>
-                    <li><a href="https://github.com/aefonso/SoolQueijo"><i class="fa fa-github fa-2x"></i></a></li>
+                    <li><a href="https://github.com/aefonso"><i class="fa fa-github fa-2x"></i></a></li>
                     <li><a href="https://instagram.com/aefonso?utm_medium=copy_link"><i class="fa fa-instagram fa-2x"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/afonso-henrique-665187221?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2DtH3EqERym%2BfT49TZsbjQ%3D%3D"><i class="fa fa-linkedin fa-2x"></i></a></li>
                   </ul>
